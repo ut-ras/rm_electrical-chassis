@@ -2581,7 +2581,7 @@
 		)
 		(uuid "289f642a-8070-4857-8086-9e5d931f526e")
 	)
-	(text "UART!"
+	(text "UART input"
 		(exclude_from_sim no)
 		(at 194.31 115.57 0)
 		(effects
@@ -2724,6 +2724,18 @@
 			(justify left bottom)
 		)
 		(uuid "b674b743-6b8d-46be-9733-2d446a8f9f59")
+	)
+	(text "Todo:\nSee page 10 of \nhttps://rm-static.djicdn.com/tem/35228/RoboMaster%20Development%20Board%20Type%20C%20User%20Manual.pdf\nRemove the UART signal and replace it with the SPI signal.\nRead the given manual for the pin names. The connector for UART input can stay the same.\n"
+		(exclude_from_sim no)
+		(at 12.7 167.132 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 194 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "cfabb674-bd00-4909-ada6-6e36305d4a19")
 	)
 	(text "Buck Convertor"
 		(exclude_from_sim no)
